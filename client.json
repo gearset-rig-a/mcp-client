@@ -1,5 +1,7 @@
 {
+  "client_id": "https://gearset-rig-a.github.io/mcp-client/client.json",
   "client_name": "Gearset Rig Test Client",
+  "client_uri": "https://gearset-rig-a.github.io/mcp-client/",
   "redirect_uris": ["https://gearset-rig-a.github.io/mcp-client/callback.html"],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
