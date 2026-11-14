@@ -1,11 +1,9 @@
 {
   "client_id": "https://gearset-rig-a.github.io/mcp-client/client.json",
   "client_name": "Gearset Rig Test Client",
-  "client_uri": "https://gearset-rig-a.github.io/mcp-client/",
+  "client_uri": "https://gearset-rig-a.github.io",
   "redirect_uris": ["https://gearset-rig-a.github.io/mcp-client/callback.html"],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
-  "scope": "openid offline_access mcp",
-  "token_endpoint_auth_method": "none",
-  "application_type": "web"
+  "token_endpoint_auth_method": "none"
 }
