@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>OAuth callback</title></head>
+<body>
+<h1>OAuth callback</h1>
+<p>code: <span id="code"></span></p>
+<p>state: <span id="state"></span></p>
+<p>error: <span id="error"></span></p>
+<script>
+const q = new URLSearchParams(location.search);
+document.getElementById('code').textContent = q.get('code') || '';
+document.getElementById('state').textContent = q.get('state') || '';
+document.getElementById('error').textContent = q.get('error') || '';
+</script>
+</body></html>
